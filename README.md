@@ -7,6 +7,11 @@ The bootstrapper script will pull in the latest version and copy the files to yo
 git clone git@github.com:zookzook/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
 
+```bash
+sudo softwareupdate -i -a
+xcode-select --install
+```
+
 To update, `cd` into your local `dotfiles` repository and then:
 
 ```bash
